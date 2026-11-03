@@ -2,6 +2,16 @@
 
 WebサイトやAPIの情報を、Androidのホーム画面にウィジェットとして表示するアプリです。
 
+## 表示例 / Example
+
+イベント予定や配送予定など、複数の情報をホーム画面にまとめて表示するイメージです。
+
+<img src="watchboard-example.png" alt="WatchBoardの表示例。イベント予定、配送予定、時間割、チーム歩数を複数のウィジェットで表示" width="420">
+
+画像内の名称・データは説明用の架空例です。利用できる情報ソースはアプリ内でご確認ください。
+
+Illustrative example; names and data are fictional. Available information sources are listed in the app.
+
 ## 概要
 
 毎回Webサイトを開かずに、必要な情報をホーム画面から確認できます。
@@ -20,6 +30,10 @@ WebサイトやAPIの情報を、Androidのホーム画面にウィジェット�
 - 通信に失敗した場合、最後に取得できた内容を保持
 - 公開情報ソースのログインなしでの利用
 - Googleログインと、アカウントの利用権に応じた情報ソースの表示
+
+## 情報ソースの追加
+
+ソースの追加についてはご相談ください（有償の場合あり）。
 
 ## ダウンロード・インストール
 
@@ -117,6 +131,8 @@ This repository distributes an installable APK, usage instructions, and the exis
 - Use public sources without signing in
 - Google sign-in and source availability based on account entitlements
 
+Please contact us to discuss adding information sources (fees may apply).
+
 ## Download and Installation
 
 Version: 0.3.0
@@ -158,3 +174,5 @@ Placement and resizing depend on your launcher.
 Android 8.0 (API 26) or later, a launcher supporting home screen widgets, and internet access are required. Google sign-in also requires a compatible account and device environment.
 
 See the existing Japanese [Terms of Service](doc/terms_of_service.md), [Privacy Policy](doc/privacy_policy.md), [Help](doc/help.md), and [About](doc/about.md). The Terms cover service availability, disclaimers, and possible paid work for source additions or adjustments. Third-party libraries remain the property of their respective rights holders.
+
+
